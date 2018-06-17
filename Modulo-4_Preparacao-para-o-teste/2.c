@@ -4,7 +4,6 @@
 
 void Descodificar(char texto[], char vogais[]);
 int EntreAB(int x, int inf, int sup);
-int VerTxt(char texto[]);
 
 int main()
 {
@@ -65,8 +64,6 @@ int main()
 void Descodificar(char texto[], char vogais[])
 {
 	int idx, idx2, idx3;
-	int cons=0;
-	int parar=0;
 
 	for(idx=0;texto[idx]!='\0';idx++)
 	{
@@ -96,30 +93,4 @@ int EntreAB(int x, int inf, int sup)
 		return 1;
 	else
 		return 0;
-}
-
-int VerTxt(char texto[])
-{
-	int idx;
-	int ok;
-
-	int EntreAB(int x, int inf, int sup);
-
-	for(idx=0;texto[idx]!='\0';idx++)
-	{
-		if(EntreAB(texto[idx],'A','Z')==0 || EntreAB(texto[idx],'a','a')==0 || EntreAB(texto[idx],0,9)==0 || texto[idx]=='95')
-		{
-			ok=1;
-		}
-		else
-		{
-			return 0;
-		}
-	}
-
-	if(ok=1)
-	{
-		return 1;
-	}
-
 }
