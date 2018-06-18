@@ -10,8 +10,8 @@ int main()
 
 	char texto[MAX+1];
 	int letras[23];
-	char maiusculas[]={"ABCDEFGHIJLMNOPQRSTUVXZ\0"};
-	char minusculas[]={"abcdefghijlmnopqrstuvxz\0"};
+	char maiusculas[]="ABCDEFGHIJLMNOPQRSTUVXZ\0";
+	char minusculas[]="abcdefghijlmnopqrstuvxz\0";
 
 	printf("Indique o texto: ");
 	gets(texto);
