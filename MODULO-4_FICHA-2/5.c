@@ -44,13 +44,3 @@ void Contagem(char texto[], int letras[], char minusculas[], char maiusculas[])
 		cnt=0;
 	}
 }
-
-
-/*for(idx=0;texto[idx]!='\0';idx++)
-		{
-			pos = ProcChar(minusculas, tolower(texto[idx])
-			if(pos != -1)
-				letras[pos]++;
-		}
-		letras[i]=cnt;
-		cnt=0;*/
