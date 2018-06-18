@@ -9,8 +9,8 @@ int main()
 	int idx;
 	char caracter;
 
-	char abc[]={"abcdefghijlmnopqrstuvxz"};
-	char cifra[]={"defghijlmnopqrstuvxzabc"};
+	char abc[]="abcdefghijlmnopqrstuvxz";
+	char cifra[]="defghijlmnopqrstuvxzabc";
 	char texto[MAX+1];
 
 	printf("Encriptar ou desencriptar (e/d): ");
