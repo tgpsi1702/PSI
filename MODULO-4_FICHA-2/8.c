@@ -13,7 +13,7 @@ int main()
 {
 	int funcoes=0;
 
-	char especiais[]={"#&$£@%!?;:.-_=+*<>\/ˆ˜{}()[]"};
+	char especiais[]="#&$Â£@%!?;:.-_=+*<>\/Ë†Ëœ{}()[]";
 	char pass[MAX+1];
 	
 	printf("Indique a password: ");
