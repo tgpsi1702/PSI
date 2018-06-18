@@ -9,7 +9,7 @@ int main()
 	int qtd;
 	int funcao=0;
 
-	char um[]={"ADOPQR"};
+	char um[]="ADOPQR";
 	char dois='B';
 	char palavra[MAX+1];
 
