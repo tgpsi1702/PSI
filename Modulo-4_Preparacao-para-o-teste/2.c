@@ -11,7 +11,7 @@ int main()
 	int qtd;
 	int ok=0;
 
-	char vogais[]={"aeiou"};
+	char vogais[]="aeiou";
 	char texto[MAX];
 
 	printf("Indique a quantidade de mensagens: ");
