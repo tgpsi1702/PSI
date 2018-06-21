@@ -34,7 +34,7 @@ int qtdLetras(char palavra[], char um[], char dois)
 	int idx, i;
 	int qtd=0;
 
-	for(idx=0;idx<palavra[idx]!='\0';idx++)
+	for(idx=0;palavra[idx]!='\0';idx++)
 	{
 		for(i=0;um[i]!='\0';i++)
 		{
